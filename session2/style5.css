@@ -1,10 +1,10 @@
 #container {
 	width: 80%;
 	margin: 0 auto;
-	border: 2px solid green;
+	border: 1px solid green;
 }
 header {
-	height: 100px;
+	height: 150px;
 	border: 1px solid green;
 }
 header .logo {
@@ -22,4 +22,34 @@ header .banner {
 	border: 1px solid green;
 	text-align: center;
 	line-height: 100px;
+}
+header .menu {
+	clear: both;
+	height: 48px;
+	border: 1px solid green;
+	text-align: center;
+	line-height: 48px;
+}
+#main {
+	height: 500px;
+}
+#main1 .main1-left {
+	width: 49.5%;
+	height: 200px;
+	border: 1px solid green;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+}
+.main1-right {
+	float: left;
+	width: 49.9%;
+	border: 1px solid green;
+	height: 200px;
+}
+.main1-right-content{
+	border: 1px solid green;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
 }
