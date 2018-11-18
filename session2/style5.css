@@ -33,7 +33,7 @@ header .menu {
 #main {
 	height: 500px;
 }
-#main1 .main1-left {
+.main1-left {
 	width: 49.5%;
 	height: 200px;
 	border: 1px solid green;
