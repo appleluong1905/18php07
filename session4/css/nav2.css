@@ -1,0 +1,22 @@
+ul li {
+	display: none;
+}
+ul li {
+	float: left;
+	list-style-type: none;
+	border: 1px solid blue;
+}
+a {
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: blue;
+	border: 1px solid white;
+	font-weight: bold;
+	color: white;
+	width: 150px;
+	display: block;
+	text-align: center;
+}
+li.active a{
+	color: yellow;
+}

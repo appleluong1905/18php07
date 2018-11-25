@@ -1,0 +1,19 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style-type: none;
+}
+/* style cho the li lien ke cua the ul*/
+ul#menu > li {
+	float: left;
+	width: 150px;
+	border: 1px solid gray;
+}
+ul ul{
+	display: none;
+}
+ul#menu li:hover ul{
+	display: block;
+}
