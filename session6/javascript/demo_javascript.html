@@ -11,6 +11,7 @@
 <body>
 	<p id="demo1">Hello Javascript</p>
 	<p onclick="document.getElementById('demo1').innerHTML = 'Hello 18PHP07'">Change content</p>
+
 	<p id="demo2">Hello Javascript</p>
 	<p onclick="document.getElementById('demo2').style.fontSize = '25px'">Change style</p>
 
@@ -20,8 +21,13 @@
 
 	<p id="demo4">Hello Javascript</p>
 	<p onclick="document.getElementById('demo4').style.display = 'none'">Hide</p>
+
 	<p onclick="document.getElementById('demo4').style.display = 'block'">Show</p>
 	
+	<!-- Demo tat bat den -->
+	<img src="pic_bulbon.gif" align="Image" id="bull">
+	<p onclick="document.getElementById('bull').src = 'pic_bulbon.gif'">Turn On</p>
+	<p onclick="document.getElementById('bull').src = 'pic_bulboff.gif'">Turn Off</p>
 	<script type="text/javascript" src="demo.js"></script>
 </body>
 </html>
