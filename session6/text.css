@@ -1,0 +1,42 @@
+@font-face {
+    font-family: myWebFontOne;
+    src: url('fonts/AlexBrush-Regular.ttf');
+}
+@font-face {
+    font-family: myWebFontTwo;
+    src: url('fonts/Acme-Regular.ttf');
+}
+@font-face {
+    font-family: myFontThuPhap;
+    src: url('fonts/VNI-Thufapf.ttf');
+}
+.p1 {
+	font-weight: bold;
+	font-size: 25px;
+	font-family: myWebFontOne;
+}
+.p1 {
+	/*text-decoration: underline;*/
+}
+.p1 {
+	/*text-decoration: overline underline;*/
+}
+.p1 {
+	text-decoration: line-through;
+}
+.p2 {
+	font-size: 30px;
+	font-family: myWebFontTwo;
+}
+.p3 {
+	font-size: 30px;
+	font-family: myFontThuPhap;
+}
+#demo {
+	width: 600px;
+	height: 400px;
+	border: 1px solid green;
+}
+#demo img {
+	vertical-align: middle;
+}
