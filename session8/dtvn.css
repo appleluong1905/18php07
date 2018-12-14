@@ -1,0 +1,20 @@
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+.player img{
+	width: 180px;
+	height: 120px;
+	margin: 15px 40px;
+	border: 1px solid gray;
+	float: left;
+}
+#show_player {
+	width: 80%;
+	margin: 0 auto;
+}
+.player-img img{
+	width: 400px;
+	height: 280px;
+	
+}
