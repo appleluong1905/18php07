@@ -14,20 +14,35 @@
 				<img src="vanduc.jpg" alt="Van Duc" onclick="showPlayer('vd')">
 			</div>
 			<div class="player">
-				<img src="quanghai.jpg" alt="Quang Hai">
+				<img src="quanghai.jpg" alt="Quang Hai" onclick="showPlayer('qh')">
 			</div>
 			<div class="player">
-				<img src="xuantruong.jpg" alt="Xuan truong">
+				<img src="xuantruong.jpg" alt="Xuan truong" onclick="showPlayer('xt')">
 			</div>	
 		</div>
 		<div id="show_player">
 			<div class="player-img">
-				<img src="default.jpg" alt="Default">
+				<img src="default.jpg" alt="Default" id="img_show">
 			</div>
 			<div class="player-description">
 				<p>Name:<span id="name"></span></p>
 				<p>Age:<span id="age"></span></p>
 			</div>
+		</div>
+		<div id="score">
+			<p>Ban da ghi ban tai AFF 2018 chua?</p>
+			<form>
+			<p>
+				<input type="radio" name="score" value="yes"> Roi
+				<input type="radio" name="score" value="yes"> Chua
+			</p>
+			<p>
+				<input type="text" name="content">
+			</p>
+			<p>
+				<input type="button" name="ok" value="OK">
+			</p>
+			</form>
 		</div>
 	</div>
 	<script type="text/javascript" src="dtvn.js"></script>
