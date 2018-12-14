@@ -33,11 +33,11 @@
 			<p>Ban da ghi ban tai AFF 2018 chua?</p>
 			<form>
 			<p>
-				<input type="radio" name="score" value="yes"> Roi
-				<input type="radio" name="score" value="yes"> Chua
+				<input type="radio" name="score" id="yes_score" value="yes" onclick="checkScore()"> Roi
+				<input type="radio" name="score" id="no_score" value="no" onclick="checkScore()"> Chua
 			</p>
 			<p>
-				<input type="text" name="content">
+				<input type="text" name="content" id="content" placeholder="Please input your country score?">
 			</p>
 			<p>
 				<input type="button" name="ok" value="OK">

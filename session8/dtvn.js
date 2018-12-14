@@ -25,3 +25,15 @@ function showPlayer(player) {
 
 	}
 }
+document.getElementById('content').style.display = 'none';
+function checkScore() {
+	var yes_score, no_score;
+	yes_score = document.getElementById('yes_score').checked;
+	no_score  = document.getElementById('no_score').checked;
+	if(yes_score) {
+		document.getElementById('content').style.display = 'block';
+	}
+	if(no_score) {
+		document.getElementById('content').style.display = 'none';
+	}
+}
