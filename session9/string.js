@@ -23,7 +23,7 @@ console.log(searchIlast);
 
 // thay the ky tu trong chuoi
 var replaceStr = '';
-replaceStr = myString1.replace('Malaysia', 'Vietnam');
+replaceStr = myString1.replace(/a/g, 'b');
 replaceStr = replaceStr.replace('Malaysian', 'Vietnamese');
 console.log(replaceStr);
 
